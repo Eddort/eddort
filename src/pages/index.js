@@ -4,7 +4,7 @@ import { Theme, Box, Text } from "@quarkly/widgets";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
-		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0">
+		<Section background="--color-darkL2" padding="64px 0" sm-padding="40px 0" height="100vh">
 			<Stack>
 				<StackItem width="50%" lg-width="100%">
 					<Override
