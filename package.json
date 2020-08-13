@@ -1,4 +1,5 @@
 {
+    "name": "quarkly-export",
     "scripts": {
         "build": "gatsby build",
         "develop": "gatsby develop",
@@ -35,7 +36,6 @@
     "devDependencies": {
         "prettier": "2.0.5"
     },
-    "name": "quarkly-export",
     "version": "0.1.0",
     "private": true
 }
