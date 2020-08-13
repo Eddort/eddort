@@ -1,14 +1,12 @@
 
 const React = require("react");
 const QAPI = require("./qapi").default;
-const { window, document, extend } = require("ssr-window");
 
 export const onRenderBody = (
     {
         setHeadComponents,
         setPostBodyComponents,
-    },
-    pluginOptions
+    }
 ) => {
   setHeadComponents([
     <style>{`
@@ -18,6 +16,7 @@ export const onRenderBody = (
             font-family: sans-serif;
         }
     `}</style>,
+    <link rel="shortcut icon" href="http://uploads.quarkly.io/readme/cra/favicon-32x32.ico" />
     ,
   ]),
   setPostBodyComponents([
