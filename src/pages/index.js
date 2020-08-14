@@ -60,6 +60,15 @@ export default (() => {
 					>
 						Web developer/ CTO/ Co-founder
 					</Text>
+					<Text
+						as="p"
+						margin="16px 0"
+						font="--lead"
+						max-width="400px"
+						color="--dark"
+					>
+						test123
+					</Text>
 				</StackItem>
 			</Stack>
 		</Section>

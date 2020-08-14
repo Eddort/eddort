@@ -27,7 +27,7 @@
         "react-dom": "^16.13.0",
         "@quarkly/widgets": "0.2.31",
         "@quarkly/components": "0.2.31",
-        "@quarkly/atomize": "1.0.7",
+        "@quarkly/atomize": "1.0.8",
         "styled-components": "^5.0.1",
         "react-router-dom": "^5.1.2",
         "react-router-hash-link": "^1.2.2",
